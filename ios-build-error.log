@@ -1,0 +1,9 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace ios/TODO_APP.xcworkspace -scheme TODO_APP -configuration Debug -destination "platform=iOS Simulator,id=76838B96-D40A-4867-BEDA-8C007555865D" build
+
+Resolve Package Graph
+invalid custom path 'Crashlytics/Crashlytics/Rollouts' for target 'FirebaseCrashlyticsSwift'
+2026-10-28 12:37:31.313 xcodebuild[71386:10136208] Writing error result bundle to /var/folders/r3/5t3grksd1_76fm9y674lsyqw0000gn/T/ResultBundle_2026-28-10_12-37-0031.xcresult
+xcodebuild: error: Could not resolve package dependencies:
+  invalid custom path 'Crashlytics/Crashlytics/Rollouts' for target 'FirebaseCrashlyticsSwift'
+
